@@ -18,7 +18,7 @@ migrate = Migrate(app, db)
 Manager.add_command('db', MigrateCommand)
 
 
-@app.route('/'
+@app.route('/')
 def home():
     return 'hello'
 
