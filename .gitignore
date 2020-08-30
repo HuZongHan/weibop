@@ -1,6 +1,7 @@
 *.pyc
-.venv/
+*venv/
 __pycache__/
 .idea/
 .vascode
 Thumb.db
+migrations/
